@@ -1,0 +1,53 @@
+body{
+    margin: 0px; /*внешняя*/
+}
+
+.button{
+    display: inline;
+    border: 2px solid rgb(17, 101, 197); /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: rgb(57, 232, 86);/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.button:hover{
+
+    background-color: red;
+    color: rgb(242, 234, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.buttonOK{
+    display: inline;
+    border: 2px solid rgb(155, 175, 155); /*ширина*/
+    background-color: rgb(192, 243, 8);/*цвет фона*/
+    color: rgb(19, 23, 56);/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.buttonOK:hover{
+    background-color: rgb(128, 0, 62);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button3{
+    display: inline;
+    border: 2px solid rgba(93, 7, 74, 0.978); /*ширина*/
+    background-color: white;/*цвет фона*/
+    color: rgb(215, 22, 35);/*цвет текста*/
+    padding: 5px 10px 5px 10px;/*размеры*/
+    margin: 5px;  /*отступ*/
+    border-radius: 10px;/*скругление*/
+    text-decoration: none;
+}
+.button3:hover{
+    background-color: rgb(173, 17, 201);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
